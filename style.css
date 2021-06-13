@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+
+
+body{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-image: url(image/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.788);
+  margin: 80px auto;
+  width: 50%;
+  padding: 20px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+  display: flex;
+}
+h1{
+  margin-bottom: 40px;
+}
+img{
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+}
+ul{
+  padding: 0;
+}
+a{
+  color: black;
+}
+a:hover{
+  opacity: 0.6;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  font-size: 30px;
+  padding-left: 30px;
+  
+}
+p{
+  margin: 40px;
+}
+abbr {
+  text-decoration: underline;
+  cursor: help;
+}
+@media  (max-width: 800px) {
+  .container{
+ display: block; 
+ }
+}
